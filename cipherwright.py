@@ -51,7 +51,7 @@ def main():
     num_passphrases = int(input("How many passphrases do you want to generate? "))
 
     # Size of the buffer to keep track of recently used words
-    buffer_size = 32
+    buffer_size = 64
     recent_words = deque()
 
     # Generate the specified number of passphrases
